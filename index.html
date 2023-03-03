@@ -4,19 +4,47 @@
     <meta charset="UTF-8" />
     <title>Tamagotchi</title>
     <link href="./styles.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
   </head>
   <body>
     <div class="gameBoy">
-      <div class="frame"></div>
+      <div class="frame">
+        <div class="stats">
+          <div class="imgStatPair">
+            <img src="assets/health.png" alt="health" />
+            <p>10</p>
+          </div>
+          <div class="imgStatPair">
+            <img src="assets/hunger.png" alt="hunger" />
+            <p>10</p>
+          </div>
+          <div class="imgStatPair">
+            <img src="assets/sleep.png" alt="sleep" />
+            <p>10</p>
+          </div>
+          <div class="imgStatPair">
+            <img src="assets/fun.png" alt="fun" />
+            <p>10</p>
+          </div>
+        </div>
+        <div class="kittyBox">
+          <img src="assets/standing.png" alt="standing" />
+        </div>
+        <div class="statusBar">
+          <p>HAPPY</p>
+        </div>
+      </div>
       <div class="buttonBar">
         <button class="gameButton">
           <img src="assets/hunger.png" alt="hunger" />
         </button>
         <button class="gameButton">
-          <img src="assets/sleep.png" alt="hunger" />
+          <img src="assets/sleep.png" alt="sleep" />
         </button>
         <button class="gameButton">
-          <img src="assets/fun.png" alt="hunger" />
+          <img src="assets/fun.png" alt="fun" />
         </button>
       </div>
     </div>
