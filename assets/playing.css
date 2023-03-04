@@ -1,0 +1,10 @@
+@keyframes spritesPlaying {
+    100% { background-position: -402px;}
+  }
+  
+  .kittyAct {
+    width: 201px;
+    height: 144px;
+    background: url(assets/spritesheet_playing.png);
+    animation: spritesPlaying 0.8s steps(2) infinite;
+  }
