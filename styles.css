@@ -102,3 +102,13 @@ body {
   flex-direction: row;
 }
 
+@keyframes spritesEating {
+  100% { background-position: -304px;}
+}
+
+.kittyAct {
+  width: 152px;
+  height: 130px;
+  background: url(assets/spritesheet_eating.png);
+  animation: spritesEating 0.8s steps(2) infinite;
+}
